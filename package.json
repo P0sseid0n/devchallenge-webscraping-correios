@@ -1,23 +1,26 @@
 {
-  "name": "devchallenge-webscraping-correios",
-  "version": "1.0.0",
-  "description": "<br/>\r <p align=\"center\">\r   <a href=\"#\">\r     <img src=\"https://s2.glbimg.com/CQesxIP5ed0q8e8qNU8-vqNapY0=/0x0:921x885/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/B/b/wzBEg4TFGwb5ZErlj3Qg/correios.jpg\" alt=\"Logo\" height=\"150\">\r   </a>",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/filiafobico/devchallenge-webscraping-correios.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/filiafobico/devchallenge-webscraping-correios/issues"
-  },
-  "homepage": "https://github.com/filiafobico/devchallenge-webscraping-correios#readme",
-  "dependencies": {
-    "puppeteer": "^5.5.0"
-  }
+	"name": "devchallenge-webscraping-correios",
+	"version": "1.0.0",
+	"description": "<br/>\r <p align=\"center\">\r   <a href=\"#\">\r     <img src=\"https://s2.glbimg.com/CQesxIP5ed0q8e8qNU8-vqNapY0=/0x0:921x885/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2019/B/b/wzBEg4TFGwb5ZErlj3Qg/correios.jpg\" alt=\"Logo\" height=\"150\">\r   </a>",
+	"main": "app.js",
+	"scripts": {
+		"dev": "tsc && node app"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiafobico/devchallenge-webscraping-correios.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/filiafobico/devchallenge-webscraping-correios/issues"
+	},
+	"homepage": "https://github.com/filiafobico/devchallenge-webscraping-correios#readme",
+	"dependencies": {
+		"puppeteer": "^21.0.2"
+	},
+	"devDependencies": {
+		"typescript": "^5.1.6"
+	}
 }

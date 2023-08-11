@@ -14,14 +14,29 @@
   </p>
 </p>
 
-
 # Desafio
+
 Desafio: Criar um [web scraping](https://pt.wikipedia.org/wiki/Coleta_de_dados_web) para consultar um cep no site dos correios
 
 # Tecnologias usadas:
-Puppeteer, Nodejs
+
+Puppeteer, Nodejs, Typescript
+
+## Como rodar
+
+```bash
+# Clone o repositório
+$ git clone
+# Entre no diretório
+$ cd devchallenge-webscraping-correios
+# Instale as dependências
+$ npm install
+# Rode o projeto
+$ npm run dev
+```
 
 ![CEPSearch](CEPSearch.gif)
 
 # DevChallenge :)
+
 [DevChallenge](https://devchallenge.now.sh/) permite que você evolua suas skills como programador! Participe da nossa comunidade o/
